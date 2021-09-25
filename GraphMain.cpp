@@ -11,7 +11,7 @@ int main(void) {
 
 	srand((int)time(0));
 	int* dim = new int;
-	std::cout << "--------------------ECE 275 FINAL by Nafisul Khondaker--------------------\n\n\nThis program will generate a random maze and display it on the screen.\n";
+	std::cout << "This program will generate a random maze and display it on the screen.\n";
 	std::cout << "Please enter dimesion of the grid you wish to use.\nFor example enter 5 to get a 5 x 5 grid: ";
 	std::cin >> *dim; //scan in user input for dimensions
 
